@@ -303,14 +303,16 @@ width: auto;
   display: table;
   clear: both;
   margin: 0 auto;
+ 
+}
+ .showcase{
+ width: 100%;
 
 }
- 
 h4{
   display: contents;
 
 }
-
 .item1,.item2,.item3{
   margin: 100px 0;
   font-size: 15px;
