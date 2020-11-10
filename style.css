@@ -1,0 +1,52 @@
+*{
+  outline: solid red 2px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  
+}
+.box1{
+  height: 100%;
+  
+}
+nav .name{
+float: left;
+}
+nav .avatar{
+   
+}
+
+.avatar{
+  border: 4px  solid white;
+  width: 150px;
+  height: 150px;
+  border-radius: 75%;
+  margin-left: 40px;
+  ;
+}
+
+nav ul{
+  float: right;
+}
+nav ul {
+  list-style: none;
+  display: inline-flexbox;
+}
+nav a {
+  text-decoration: none;
+}
+
+
+img{
+  width: 100%;
+}
+
+.img-2{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

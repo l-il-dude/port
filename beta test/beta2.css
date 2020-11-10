@@ -1,0 +1,334 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+ 
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.box2,.box3,.box4,.box5 {
+  float: right;
+  width: 75%;
+  height:550px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+img{
+  display: block;
+  width: 100%;
+  
+  height: auto;
+}
+h1, h2, h3{
+  margin: 5px;
+  padding: 0px ;
+  text-align: center;
+font-size: 35px;
+}
+p{
+  margin: 0 40px;
+  padding:  0;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* nav bar */
+.nav-content{
+  display: none;
+}
+.box1{
+  float: left;
+  display: block;
+  background-color: silver;
+text-align: center;
+width: 25%;
+height: 100vh;
+position: fixed;
+padding-top: 20px;
+overflow-y: hidden;
+
+}
+
+.box1, .img-1{
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  
+ 
+}
+.avatar{
+  border: 4px  solid white;
+  width: 50%;
+  height: 150px;
+  border-radius: 75%;
+  margin: 0 auto;
+}
+/* need to edit ul li to some class names !!! */
+.navbar, .name, .name-p{
+   text-align: center;
+}
+.navbar .navbar-links a:hover{
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 6px;
+}
+
+
+.navbar-links li, a{
+  margin: 80px 0 20px 0 ;
+  text-decoration: none;
+  color: black;
+  font-size: 32px;
+}
+
+
+/* title */
+.box2{
+   position: relative;
+  text-align: center;
+min-height: 450px;
+color: white;
+text-align: center;
+font-size: 20px;
+}
+ .img-2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  opacity: 0.8;
+}
+.title {
+  position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+font-style: italic;
+text-transform: capitalize;
+}
+hr{
+  width: 90%;
+  margin: 10px auto;
+}
+
+
+/* about me */
+.aboutme{
+display: flex;
+justify-content: space-between;
+height: 500px;
+align-items: center;
+overflow: auto;
+ 
+}
+/* .content{
+} */
+.family{
+  margin-left: 20px;
+  margin-right: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:250px;
+  width: 450px;
+   box-shadow: 10px 10px 5px 2px grey;
+  /* border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+   */
+  
+  opacity: 0.7;
+}
+.p-text{
+  font-size: 30px;
+  
+}
+.card{
+  display: flex;
+  align-items: center;
+  margin: 150px auto;
+}
+.item1, .item2,.item3{
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+/* section  b */
+/* .box4{
+ margin: 0 auto 0 auto;
+}
+.showcase{
+  margin:100px auto;
+height: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+} */
+/* h4{
+  text-align: center;
+  padding: 10px 0 ;
+}
+
+.item1,.item2,.item3{
+  font-size: 20px;
+  width: auto;
+  height: 100%;
+  padding: 0 50px;
+} */
+
+
+.box5{
+  width: 75%;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: none;
+}
+.submit-btn{  text-align: center;
+}
+form{
+  margin: 0 70px;
+  
+}
+
+/* footer */
+ .footer {
+display: block;
+padding: 10px 0 ;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+  float: right;
+  width: 75%;
+ 
+
+}
+
+/* Iphone screen */
+@media screen and (max-width: 850px ){
+ 
+ body{
+   margin: 0;
+   padding: 0;
+
+ } 
+ /* need t0 add javascript */
+ .box1{
+display: none;
+}
+.mobile-nav {
+  display: block;
+}
+.nav-content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: silver;
+height:auto;
+padding: 0;
+margin: 0;
+}
+
+.brand-title{
+  font-size: 25px;
+  margin: 15px;
+}
+
+.brand-links ul {
+  display: flex; 
+}
+
+.brand-links li{
+  list-style: none;
+}
+
+.brand-links li a {
+  text-decoration: none;
+  padding: 1px 15px;
+  font: 15px sans-serif;
+}
+.brand-links li:hover{
+  background-color: #555;
+}
+
+.box2,.box3,.box4,.box5{
+  width: 100%;
+ height: auto;
+}
+.img-2{
+  margin: 0;
+  width: 100%;
+}
+.title{
+font-style: italic;
+text-transform: capitalize;
+}
+
+.content{
+  width: auto;
+margin: 0;
+  opacity: 0.8;
+  color: black;
+}
+
+.aboutme{
+width: auto;
+ 
+}
+.family{
+  display: none;
+}
+.card{
+ content: "";
+  display: table;
+  clear: both;
+  margin: 0 auto;
+ 
+}
+ .showcase{
+ width: 100%;
+
+}
+h4{
+  display: contents;
+
+}
+.item1,.item2,.item3{
+  margin: 100px 0;
+  font-size: 15px;
+  font-weight: 600;
+} 
+/* BOX 5 */
+form{
+  margin: 0 20px 10px;
+  
+}
+/* footer
+ */
+ .footer {
+display: block;
+padding-bottom: 20px;
+justify-content: space-between;
+align-items: center;
+background-color: silver;
+width: 100%;
+}
+}
