@@ -150,15 +150,17 @@ overflow: auto;
   
 }
 .card{
+  width: auto;
   display: flex;
   align-items: center;
   margin: 150px auto;
 }
 .item1, .item2,.item3{
-  
+  height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
+  padding:20px;
   text-align: center;
   font-family: arial;
 }
@@ -301,16 +303,14 @@ width: auto;
   display: table;
   clear: both;
   margin: 0 auto;
- 
-}
- .showcase{
- width: 100%;
 
 }
+ 
 h4{
   display: contents;
 
 }
+
 .item1,.item2,.item3{
   margin: 100px 0;
   font-size: 15px;
