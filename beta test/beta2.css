@@ -336,6 +336,7 @@ button{
   margin: 20px;
 }
 button a{ 
+  height: auto;
   padding: 20px;
   margin: 30px;
   font-size: 20px;
