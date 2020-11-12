@@ -274,7 +274,7 @@ margin: 0;
 .brand-links li a {
   text-decoration: none;
   padding: 1px 15px;
-  font: 20px sans-serif;
+  font: 18px sans-serif;
 }
 .brand-links li:hover{
   background-color: #555;
@@ -339,7 +339,7 @@ button a{
   
   padding: 20px 0 ;
   margin: 30px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 /* BOX 5 */
