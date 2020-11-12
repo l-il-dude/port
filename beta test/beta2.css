@@ -168,7 +168,7 @@ button{
   padding: 25px;
   margin: 10px;
 }
-button a{ 
+button a{ padding: 25px;
   margin: 10px;
   font-size: 20px;
   font-weight: bold;
@@ -331,7 +331,7 @@ h4{
   box-shadow: 10px 10px 5px 1px  black
 } 
 
-button{
+/* button{
   padding: 30px 0;
   margin: 20px;
 }
@@ -341,7 +341,7 @@ button a{
   margin: 30px;
   font-size: 18px;
   font-weight: bold;
-}
+} */
 /* BOX 5 */
 form{
   margin: 0 20px 10px;
